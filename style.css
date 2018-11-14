@@ -36,10 +36,11 @@ body {
     justify-content: center;
 }
 
-.hov2:nth-child(even) {
+
+/* .hov2:nth-child(even) {
     background: #777;
     padding: 5px;
-}
+} */
 
 .hov1 {
     color: #7D7C7D;
@@ -63,6 +64,7 @@ body {
 }
 
 .hov2:hover {
+    background: #777;
     box-shadow: 5px 5px 8px 0px rgb(79, 83, 90);
 }
 
@@ -73,18 +75,12 @@ body {
     grid-column: 1 / span 1;
 }
 
-
-/* img {
+img {
     max-width: 100%;
     height: auto;
     overflow: hidden;
     background-size: cover;
     background-position: center center;
-} */
-
-img {
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .one img {
@@ -119,30 +115,22 @@ img {
     grid-column: 12/ span 1;
 }
 
-.item-1 {
-    grid-column: 1/ span 2;
-}
-
-.item-2 {
-    background: #3d8bb1;
-    grid-column: 1/ span 2;
-    font-size: 1.2vw;
-}
-
 .box1 {
     grid-column: 1/ span 4;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
+    place-self: center stretch;
 }
 
 .box2 {
     grid-column: 5/span 4;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
+    place-self: center stretch;
 }
 
 .box3 {
@@ -151,6 +139,22 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 10px;
+    place-self: center stretch;
+}
+
+.item-1 {
+    grid-column: 1/ span 2;
+    place-self: center stretch;
+    /* background-image: url(././MyPortfolio/BusinessManBWRedux1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.item-2 {
+    background: #3d8bb1;
+    grid-column: 1/ span 2;
+    font-size: 1.2vw;
+    place-self: center stretch;
 }
 
 .eigth {
