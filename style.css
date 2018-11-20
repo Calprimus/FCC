@@ -85,24 +85,8 @@ li a:hover {
     display: grid;
     width: 100%;
     margin: 0 auto;
-    grid-gap: 10px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 80px auto auto 80px;
-    grid-template-areas: "header" "main" "sidebar" "footer";
-}
-
-.grid-1 div {
-    color: white;
-    font-size: 16px;
-    padding: 10px;
-}
-
-.grid-1 {
-    display: grid;
-    width: 100%;
-    margin: 0 auto;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 80px auto 80px;
+    grid-template-rows: 80px auto auto;
     grid-gap: 20px;
     grid-template-areas: "header   header   header" "it1 it2 it3" "footer   footer   footer";
 }
@@ -117,7 +101,7 @@ li a:hover {
     background: #b03532;
     grid-area: header;
     transition: 0.5s;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .header-1:hover {
@@ -134,7 +118,7 @@ li a:hover {
     grid-template-rows: 1fr 3fr 1fr;
     grid-gap: 10px;
     transition: 0.5s;
-    border-radius: 5px;
+    border-radius: 10px;
     grid-template-areas: "title1 title1" ". ." "comment1 comment1";
 }
 
@@ -152,7 +136,7 @@ li a:hover {
     grid-template-rows: 1fr 3fr 1fr;
     grid-gap: 10px;
     transition: 0.5s;
-    border-radius: 5px;
+    border-radius: 10px;
     grid-template-areas: "title1 title1" ". ." "comment1 comment1";
 }
 
@@ -170,7 +154,7 @@ li a:hover {
     grid-template-rows: 1fr 3fr 1fr;
     grid-gap: 10px;
     transition: 0.5s;
-    border-radius: 5px;
+    border-radius: 10px;
     grid-template-areas: "title1 title1" ". ." "comment1 comment1";
 }
 
@@ -178,31 +162,31 @@ li a:hover {
     box-shadow: 5px 5px 8px 0px rgb(79, 83, 90);
 }
 
-.title1 {
-    background: #da6f2b;
-    grid-area: title1;
-}
-
-.comment1 {
-    background: #3d8bb1;
-    grid-area: comment1;
-}
-
 .footer-1 {
     background: #6a478f;
-    transition: 0.3s;
-    border-radius: 5px;
     grid-area: footer;
+    display: grid;
     background: url('images/Reduximage_4.jpg');
     background-size: cover;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 3fr 1fr;
     grid-gap: 10px;
     transition: 0.5s;
-    border-radius: 5px;
+    border-radius: 10px;
     grid-template-areas: "title1 title1" ". ." "comment1 comment1";
 }
 
 .footer-1:hover {
     box-shadow: 5px 5px 8px 0px rgb(79, 83, 90);
+}
+
+.title1 {
+    background: #da6f2b;
+    grid-area: title1;
+    align-self: center;
+}
+
+.comment1 {
+    background: #3d8bb1;
+    grid-area: comment1;
 }
