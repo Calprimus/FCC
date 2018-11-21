@@ -183,7 +183,6 @@ li a:hover {
 .title1 {
     background: #da6f2b;
     grid-area: title1;
-    align-self: center;
 }
 
 .comment1 {
