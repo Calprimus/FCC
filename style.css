@@ -187,11 +187,11 @@ li a:hover {
     background: url('images/Reduximage_5.jpg');
     background-size: cover;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
     transition: 0.5s;
     border-radius: 10px;
-    grid-template-areas: "title1 title1" ". ." "comment1 comment1";
+    grid-template-areas: "title1 title1" "comment1 comment1" "title1 title1";
 }
 
 .footer-2:hover {
