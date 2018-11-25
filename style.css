@@ -191,7 +191,7 @@ li a:hover {
     grid-gap: 10px;
     transition: 0.5s;
     border-radius: 10px;
-    grid-template-areas: "title1 title1" "comment1 comment1" "title1 title1";
+    grid-template-areas: "name1 ." "tel1 ." "email1 .";
 }
 
 .footer-2:hover {
@@ -210,6 +210,33 @@ li a:hover {
 .comment1 {
     background: #3d8bb1;
     grid-area: comment1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.name1 {
+    background: #201c73;
+    grid-area: name1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tel1 {
+    background: #423e8c;
+    grid-area: tel1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.email1 {
+    background: #6e6ba6;
+    grid-area: email1;
     border-radius: 5px;
     display: flex;
     justify-content: center;
