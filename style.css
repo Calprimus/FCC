@@ -93,7 +93,7 @@ li a:hover {
 
 .grid-1 div {
     color: white;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding: 20px;
 }
 
@@ -198,6 +198,11 @@ li a:hover {
     box-shadow: 5px 5px 8px 0px rgb(79, 83, 90);
 }
 
+.footer-2 div {
+    color: red;
+    font-size: 1.4vw;
+}
+
 .title1 {
     background: #da6f2b;
     grid-area: title1;
@@ -241,4 +246,8 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-content: center;
+}
+
+.email1 div {
+    font-size: 3 vw;
 }
