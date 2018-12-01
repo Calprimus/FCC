@@ -113,8 +113,8 @@ li a:hover {
     display: grid;
     background: url('images/Reduximage_4.jpg');
     background-size: cover;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 10px;
     transition: 0.5s;
     border-radius: 10px;
 }
