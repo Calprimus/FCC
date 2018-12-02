@@ -196,12 +196,12 @@ li a:hover {
     display: grid;
     background: url('images/Reduximage_5.jpg');
     background-size: cover;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 20px;
     transition: 0.5s;
     border-radius: 10px;
-    grid-template-areas: "name1 ." "tel1 ." "email1 .";
+    grid-template-areas: "name1 . input1" "tel1 . input2" "email1 . .";
 }
 
 .footer-2:hover {
@@ -211,6 +211,24 @@ li a:hover {
 .footer-2 div {
     color: white;
     font-size: 1.4vw;
+}
+
+.input1 {
+    background: #068353;
+    grid-area: input1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.input2 {
+    background: #d4044a;
+    grid-area: input2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .title1 {
