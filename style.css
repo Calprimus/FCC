@@ -201,7 +201,7 @@ li a:hover {
     grid-gap: 20px;
     transition: 0.5s;
     border-radius: 10px;
-    grid-template-areas: "name1 . input1" "tel1 . input2" "email1 . .";
+    grid-template-areas: "name1 input1 ." "tel1 input2 ." "email1 . .";
 }
 
 .footer-2:hover {
@@ -211,24 +211,6 @@ li a:hover {
 .footer-2 div {
     color: white;
     font-size: 1.4vw;
-}
-
-.input1 {
-    background: #068353;
-    grid-area: input1;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.input2 {
-    background: #d4044a;
-    grid-area: input2;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-content: center;
 }
 
 .title1 {
@@ -258,12 +240,30 @@ li a:hover {
     align-content: center;
 }
 
+.input1 {
+    background: #201c73;
+    grid-area: input1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
 .tel1 {
     background: #423e8c;
     grid-area: tel1;
     border-radius: 5px;
     display: flex;
     justify-content: flex-start;
+    align-content: center;
+}
+
+.input2 {
+    background: #423e8c;
+    grid-area: input2;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
     align-content: center;
 }
 
