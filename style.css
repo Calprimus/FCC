@@ -213,6 +213,12 @@ li a:hover {
     font-size: 1.4vw;
 }
 
+.contact {
+    font-weight: 700;
+    font-size: .9em;
+    font-family: 'Montserrat';
+}
+
 .title1 {
     background: #da6f2b;
     grid-area: title1;
@@ -241,9 +247,11 @@ li a:hover {
 }
 
 input {
-    width: 150px;
+    font-size: .9em;
+    font-family: 'Montserrat';
+    border: none;
+    padding: 0 10px;
     margin: 0;
-    box-sizing: border-box;
 }
 
 .input1 {
