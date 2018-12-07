@@ -254,6 +254,12 @@ input {
     margin: 0;
 }
 
+input:focus {
+    background: rgba(208, 219, 226, 0.85);
+    border-radius: 5px;
+    outline: none;
+}
+
 .input1 {
     background: #201c73;
     grid-area: input1;
@@ -261,6 +267,7 @@ input {
     display: flex;
     justify-content: center;
     align-content: center;
+    padding: 5px;
 }
 
 .tel1 {
