@@ -184,7 +184,8 @@ li a:hover {
     grid-gap: 10px;
     transition: 0.5s;
     border-radius: 10px;
-    grid-template-areas: "title1 title1" ". ." "comment1 comment1";
+    grid-template-areas: /*prettier-ignore */
+    "title1 title1" ". ." "comment1 comment1";
 }
 
 .footer-1:hover {
